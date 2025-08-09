@@ -1,3 +1,5 @@
+import { cn } from "@/lib/utils";
+
 export const AboutSection = () => {
    return (
       <section id="about" className="py-24 px-4 relative">
@@ -28,7 +30,8 @@ export const AboutSection = () => {
                         Get in Touch
                      </a>
 
-                     <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                     <a href="#contact" className={cn("px-6 py-2 rounded-full border border-primary text-primary",
+                        "hover:bg-primary/10 transition-colors duration-300")}>
                         Download CV
                      </a>
                   </div>
