@@ -63,7 +63,7 @@ const skills = [
    },
 ];
 
-export const Skills = () => {
+export const SkillsSection = () => {
    return (
       <section id="skills" className="py-24 px-4 relative">
          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
