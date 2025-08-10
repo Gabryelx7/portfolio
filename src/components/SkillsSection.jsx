@@ -72,7 +72,7 @@ export const SkillsSection = () => {
          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 container">
             {skills.map(skill => (
                <div className={cn("gradient-border card-hover bg-primary/10 flex flex-col items-center",
-                  "justify-center py-4 dark:bg-deep")}
+                  "justify-center py-4")}
                   key={skill.name}
                >
                   <span className="mb-2 font-semibold">{skill.name}</span>
